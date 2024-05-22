@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 100px;
+  padding: 5px 0px;
+  text-align: left;
+  font-size: 15px;
+  border: none;
+  color: red;
+  background-color: transparent;
+}
+
+.currencyType {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  color: green;
+}
